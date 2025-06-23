@@ -52,7 +52,6 @@ This PowerShell script automates the process of scanning AWS CloudTrail logs and
   - *(Optional)* `AWS_REGION`
 
 ---
-
 ## 🚀 Running the Script
 
 ```powershell
@@ -63,3 +62,12 @@ $env:AWS_REGION = "us-east-2"
 
 # Run the script
 .\parse-cloudtrail-errors.ps1
+---
+---
+##  Example Output:
+Starting to parse your CloudTrail events
+Error Found: AccessDeniedException
+Error Found: UnauthorizedOperation
+Finished parsing your AWS CloudTrail events.
+
+---
